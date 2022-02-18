@@ -2,7 +2,9 @@
 
 Saya Nyoman Ari Satyadharma 2000831 mengerjakan Latihan 1 DPBO dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
 <br>
+<br>
 Penjelasan kode program
+<br>
 <br>
 Saya membuat kelas Product, Hardware, dan Memory. Kelas Product mempunyai anak yaitu kelas Hardware, dan kelas Hardware memiliki anak yaitu kelas Memory.
 <br>
