@@ -9,8 +9,10 @@ class Memory extends Hardware{
 	private $supportsCuda;
 
 	//konstruktor
-	public function __construct(){
-		
+	public function __construct($frequency = 0, $memorySize = 0, $supportsCuda = ""){
+		$this->frequency = $frequency;
+		$this->memorySize = $memorySize;
+		$this->supportsCuda = $supportsCuda;
 	}
 
 	//getter dan setter untuk atribut frequency

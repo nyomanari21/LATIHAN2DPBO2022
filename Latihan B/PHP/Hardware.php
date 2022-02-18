@@ -8,8 +8,9 @@ class Hardware extends Product{
 	private $model;
 
 	//kostruktor
-	public function __construct(){
-		
+	public function __construct($brand = "", $model = ""){
+		$this->brand = $brand;
+		$this->model = $model;
 	}
 
 	//getter dan setter untuk atribut brand

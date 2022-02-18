@@ -8,8 +8,9 @@ class Product{
 	private $idProduct;
 
 	//konstruktor
-	public function __construct(){
-		
+	public function __construct($price = 0, $idProduct = ""){
+		$this->price = $price;
+		$this->idProduct = $idProduct;
 	}
 
 	//getter dan setter untuk atribut price
